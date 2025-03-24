@@ -38,7 +38,7 @@ FastAPI → Docker → GitLab CI/CD → GitLab Container Registry → Jenkins
 - Scikit-learn
 - Docker
 - GitLab CI/CD
-- Jenkins (optionnel)
+- Jenkins 
 - Uvicorn
 
 ---
@@ -53,7 +53,7 @@ FastAPI → Docker → GitLab CI/CD → GitLab Container Registry → Jenkins
   - `push` : push vers `registry.gitlab.com`
   - `deploy` : exécution de l’image localement ou sur serveur distant
 
-### 🔧 Jenkins (optionnel)
+### 🔧 Jenkins 
 
 - Pipeline défini dans le fichier `Jenkinsfile`
 - Authentification sécurisée avec token GitLab
@@ -98,7 +98,7 @@ house-price-api/
 ├── Dockerfile               # Instructions pour l’image Docker
 ├── requirements.txt         # Dépendances Python
 ├── .gitlab-ci.yml           # Pipeline CI/CD GitLab
-├── Jenkinsfile              # Pipeline Jenkins (optionnel)
+├── Jenkinsfile              # Pipeline Jenkins 
 └── README.md                # Documentation du projet
 ```
 
